@@ -1,0 +1,57 @@
+spring:
+  jpa:
+    databasePlatform: org.hibernate.dialect.MariaDB53Dialect
+    generate-ddl: true
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://58.186.85.182:3306/vnfite_after
+    username: vnfite
+    password: Trantheanh@123
+    poolName: vnfite_after
+    maximumPoolSize: 5
+    minimumIdle: 3
+    maxLifetime: 2000000
+    connectionTimeout: 30000
+    idleTimeout: 30000
+    pool-prepared-statements: true
+    max-open-prepared-statements: 250
+  config:
+    base_url: https://payment-agentbanking-staging.pvcombank.com.vn:443
+    auth_url: https://sandbox-connect.pvcombank.com.vn/auth/realms/pvcombank/protocol/openid-connect/token
+    grant_type: client_credentials
+    payment:
+      client_id: 16d5d977
+      client_secret: 2de152fc9ce573a57a5dbba7ed2d53eb
+    card:
+      client_id: b8f02687
+      client_secret: 59e81d2e7984e2235f56c57cd05f1d67
+#  swacger
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+
+#logging:
+#  level:
+#    com:
+#      zaxxer:
+#        hikari:
+#          HikariConfig: DEBUG
+#          pool:
+#            HikariPool: DEBUG
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+pvcom:
+  token: 5be3403aff721f9b9480277a7b170fdc
+
+
+
+
+
