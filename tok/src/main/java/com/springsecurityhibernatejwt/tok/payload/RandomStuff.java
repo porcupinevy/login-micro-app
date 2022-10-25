@@ -1,2 +1,6 @@
-package com.springsecurityhibernatejwt.tok.payload;public class RandomStuff {
+package com.springsecurityhibernatejwt.tok.payload;
+
+public class RandomStuff {
+    public RandomStuff(String s) {
+    }
 }

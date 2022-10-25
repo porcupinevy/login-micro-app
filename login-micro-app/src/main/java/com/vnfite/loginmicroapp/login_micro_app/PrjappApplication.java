@@ -1,4 +1,4 @@
-package com.vnfite.loginmicroapp.prjapp;
+package com.vnfite.loginmicroapp.login_micro_app;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

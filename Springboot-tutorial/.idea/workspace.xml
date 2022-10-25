@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fefd7092-0779-4d4b-ad54-d3d86f286b29" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../login-micro-app/src/main/java/com/vnfite/loginmicroapp/login_micro_app/models/ERole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login-micro-app/src/main/java/com/vnfite/loginmicroapp/login_micro_app/models/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login-micro-app/src/main/java/com/vnfite/loginmicroapp/login_micro_app/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login-micro-app/src/main/java/com/vnfite/loginmicroapp/login_micro_app/repository/RoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login-micro-app/src/main/java/com/vnfite/loginmicroapp/login_micro_app/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login-micro-app/src/main/java/com/vnfite/loginmicroapp/login_micro_app/security/WebSercurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login-micro-app/src/main/java/com/vnfite/loginmicroapp/login_micro_app/security/jwt/AuthEntryPointJwt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login-micro-app/src/main/java/com/vnfite/loginmicroapp/login_micro_app/security/jwt/AuthTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login-micro-app/src/main/java/com/vnfite/loginmicroapp/login_micro_app/security/jwt/JwtUntils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login-micro-app/src/main/java/com/vnfite/loginmicroapp/login_micro_app/security/services/UserDetailsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../login-micro-app/src/main/java/com/vnfite/loginmicroapp/login_micro_app/security/services/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/java/org/vnfite/sbsecurityJPA/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/java/org/vnfite/sbsecurityJPA/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/java/org/vnfite/sbsecurityJPA/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/java/org/vnfite/sbsecurityJPA/controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/java/org/vnfite/sbsecurityJPA/dao/AppRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/java/org/vnfite/sbsecurityJPA/dao/AppRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/java/org/vnfite/sbsecurityJPA/dao/AppUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/java/org/vnfite/sbsecurityJPA/dao/AppUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/java/org/vnfite/sbsecurityJPA/entity/AppRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/java/org/vnfite/sbsecurityJPA/entity/AppRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/java/org/vnfite/sbsecurityJPA/entity/AppUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/java/org/vnfite/sbsecurityJPA/entity/AppUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/java/org/vnfite/sbsecurityJPA/entity/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/java/org/vnfite/sbsecurityJPA/entity/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/java/org/vnfite/sbsecurityJPA/service/UserDetailsServicelmpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/java/org/vnfite/sbsecurityJPA/service/UserDetailsServicelmpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/java/org/vnfite/sbsecurityJPA/utils/EncrytedPasswordUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/java/org/vnfite/sbsecurityJPA/utils/EncrytedPasswordUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/java/org/vnfite/sbsecurityJPA/utils/WebUntils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/java/org/vnfite/sbsecurityJPA/utils/WebUntils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/resources/templates/403Page.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/resources/templates/403Page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/resources/templates/_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/resources/templates/_menu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/resources/templates/adminPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/resources/templates/adminPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/resources/templates/loginPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/resources/templates/loginPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/resources/templates/logoutSuccessfulPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/resources/templates/logoutSuccessfulPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/resources/templates/userInfoPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/resources/templates/userInfoPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/resources/templates/welcomePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/../SpringBootSecurityJPA/src/main/resources/templates/welcomePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-micro-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../login-micro-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-micro-app/src/main/java/com/vnfite/loginmicroapp/prjapp/PrjappApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../login-micro-app/src/main/java/com/vnfite/loginmicroapp/login_micro_app/PrjappApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-micro-app/src/main/java/com/vnfite/loginmicroapp/prjapp/user/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-micro-app/src/test/java/com/vnfite/loginmicroapp/prjapp/PrjappApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../login-micro-app/src/test/java/com/vnfite/loginmicroapp/login_micro_app/PrjappApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tok/src/main/java/com/springsecurityhibernatejwt/tok/VnfiteRestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tok/src/main/java/com/springsecurityhibernatejwt/tok/VnfiteRestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tok/src/main/java/com/springsecurityhibernatejwt/tok/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tok/src/main/java/com/springsecurityhibernatejwt/tok/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tok/src/main/java/com/springsecurityhibernatejwt/tok/jwt/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tok/src/main/java/com/springsecurityhibernatejwt/tok/jwt/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tok/src/main/java/com/springsecurityhibernatejwt/tok/jwt/JwtTokenProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tok/src/main/java/com/springsecurityhibernatejwt/tok/jwt/JwtTokenProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tok/src/main/java/com/springsecurityhibernatejwt/tok/payload/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tok/src/main/java/com/springsecurityhibernatejwt/tok/payload/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tok/src/main/java/com/springsecurityhibernatejwt/tok/payload/LoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tok/src/main/java/com/springsecurityhibernatejwt/tok/payload/LoginResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tok/src/main/java/com/springsecurityhibernatejwt/tok/payload/RandomStuff.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tok/src/main/java/com/springsecurityhibernatejwt/tok/payload/RandomStuff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tok/src/main/java/com/springsecurityhibernatejwt/tok/user/CustomUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tok/src/main/java/com/springsecurityhibernatejwt/tok/user/CustomUserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tok/src/main/java/com/springsecurityhibernatejwt/tok/user/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tok/src/main/java/com/springsecurityhibernatejwt/tok/user/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tok/src/main/java/com/springsecurityhibernatejwt/tok/user/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tok/src/main/java/com/springsecurityhibernatejwt/tok/user/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tok/src/main/java/com/springsecurityhibernatejwt/tok/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../tok/src/main/java/com/springsecurityhibernatejwt/tok/user/UserService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Gd3YapsnU6yUEh5SaTFreZqWIj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="RebelAgentSelection">
+    <selection>jr</selection>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fefd7092-0779-4d4b-ad54-d3d86f286b29" name="Changes" comment="" />
+      <created>1666704682057</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666704682057</updated>
+      <workItem from="1666704683407" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
